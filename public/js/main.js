@@ -116,7 +116,7 @@ sr.reveal(".category-3",  { origin: "right"});
 sr.reveal(".promo")
 sr.reveal(".about-image")
 sr.reveal(".about-content",  { origin: "right" })
-sr.reveal(".menu",  { origin: "top",interval:150 })
+sr.reveal(".menu-display",  { origin: "top",interval:150 })
 sr.reveal(".menu-tittle")
 sr.reveal(".review", { origin: 'top' })
 sr.reveal(".review-tittle")
