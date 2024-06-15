@@ -457,7 +457,7 @@ html,
   overflow-x: hidden;
   scroll-behavior: smooth;
   --tw-bg-opacity: 1;
-  background-color: rgb(1 10 94 / var(--tw-bg-opacity));
+  background-color: rgb(130 3 0 / var(--tw-bg-opacity));
   font-family: Oswald, sans-serif;
   letter-spacing: 0.05em;
   --tw-text-opacity: 1;
@@ -1094,7 +1094,7 @@ section{
 
 .border-primaryColorAccent{
   --tw-border-opacity: 1;
-  border-color: rgb(1 13 120 / var(--tw-border-opacity));
+  border-color: rgb(184 0 0 / var(--tw-border-opacity));
 }
 
 .border-secondaryColor{
@@ -1104,6 +1104,11 @@ section{
 
 .border-white\/20{
   border-color: rgb(255 255 255 / 0.2);
+}
+
+.bg-blueColor{
+  --tw-bg-opacity: 1;
+  background-color: rgb(7 65 115 / var(--tw-bg-opacity));
 }
 
 .bg-darkColor{
@@ -1123,17 +1128,12 @@ section{
 
 .bg-primaryColor{
   --tw-bg-opacity: 1;
-  background-color: rgb(1 10 94 / var(--tw-bg-opacity));
+  background-color: rgb(130 3 0 / var(--tw-bg-opacity));
 }
 
 .bg-primaryColorAccent{
   --tw-bg-opacity: 1;
-  background-color: rgb(1 13 120 / var(--tw-bg-opacity));
-}
-
-.bg-redColor{
-  --tw-bg-opacity: 1;
-  background-color: rgb(204 52 51 / var(--tw-bg-opacity));
+  background-color: rgb(184 0 0 / var(--tw-bg-opacity));
 }
 
 .bg-secondaryColor{
@@ -1142,6 +1142,21 @@ section{
 }
 
 .bg-white{
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.bg-gray-300{
+  --tw-bg-opacity: 1;
+  background-color: rgb(209 213 219 / var(--tw-bg-opacity));
+}
+
+.bg-gray-200{
+  --tw-bg-opacity: 1;
+  background-color: rgb(229 231 235 / var(--tw-bg-opacity));
+}
+
+.bg-sectionTittleColor{
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
@@ -1287,7 +1302,7 @@ section{
 }
 
 .shadow-primaryColorAccent{
-  --tw-shadow-color: #010d78;
+  --tw-shadow-color: #B80000;
   --tw-shadow: var(--tw-shadow-colored);
 }
 
@@ -1628,6 +1643,10 @@ section{
 
   .lg\:grid-cols-5{
     grid-template-columns: repeat(5, minmax(0, 1fr));
+  }
+
+  .lg\:grid-cols-6{
+    grid-template-columns: repeat(6, minmax(0, 1fr));
   }
 
   .lg\:flex-row{

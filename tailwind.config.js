@@ -12,14 +12,14 @@ module.exports = {
     extend: {
 
     colors: {
-        primaryColor: '#010a5e',
-        primaryColorAccent: "#010d78",
+        primaryColor: '#820300',
+        primaryColorAccent: "#B80000",
         secondaryColor: '#FFCC00',
         sectionTittleColor: '#fff',      
         paragColor: '#fff',
         blackColor: "#000",
         greenColor: "#007936",
-        redColor: "#cc3433",
+        blueColor: "#074173",
         darkColor: '#000',
         darkColorAccent: "#171717",
       },

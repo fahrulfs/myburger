@@ -104,9 +104,9 @@ window.addEventListener('scroll', activeLink)
 
 window.sr = ScrollReveal({
   reset: true,
-  duration: 1500,
-  distance: '60px',
-  origin:'bottom'
+  duration: 1000,
+  distance: '40px',
+  origin:'top'
 });
 sr.reveal(".home-image")
 sr.reveal(".home-content",  { origin: "right" })
@@ -116,7 +116,6 @@ sr.reveal(".category-3",  { origin: "right"});
 sr.reveal(".promo")
 sr.reveal(".about-image")
 sr.reveal(".about-content",  { origin: "right" })
-sr.reveal(".menu-display",  { origin: "top",interval:150 })
 sr.reveal(".menu-tittle")
 sr.reveal(".review", { origin: 'top' })
 sr.reveal(".review-tittle")
@@ -134,25 +133,26 @@ tabs.forEach(tab => {
    tab.classList.remove('active')
     })
     tab.classList.add('active')
-    
- const tabItem = tab.getAttribute('data-tabs')
+
+     const tabItem = tab.getAttribute('data-tabs')
  all.forEach(item => {
    item.style.display = 'none'
  })
     
-  
-    if (tabItem == "burgers") {
+    
+
+    if  (tabItem == "burgers") {
     burgers.forEach(item => {
     item.style.display='block'
-    })
-   
+    })  
     }
+
    else if (tabItem == "beverages") {
           beverages.forEach(item => {
-    item.style.display='block'
+            item.style.display = 'block'
   })
     }
-       else if (tabItem == "snacks") {
+      else if (tabItem == "snacks") {
           snacks.forEach(item => {
     item.style.display='block'
   })
@@ -160,6 +160,7 @@ tabs.forEach(tab => {
     else (all.forEach(item => {
       item.style.display = 'block'
     }))
+    
   })
 })
 
